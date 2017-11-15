@@ -2,12 +2,13 @@
 A wrapper around [baron](https://github.com/Diokuz/baron) scrollbar library.
 
 ### Usage
-1. `npm install angular-baron-scrollbar`
+1. `bower install angular-baron-scrollbar`
 2. In app code:
   ```
-  angular.module('app', [ require('angular-baron-scrollbar') ])
+  angular.module('app', [ 'angular-baron-scrollbar' ])
   ```
-  or replace `require()` by `'angular-baron-scrollbar'` and put appropriate `<script src='.../dist/index.js'>` tag in your html.
+  put appropriate `<script src='.../dist/index.js'>` tag in your html.
+
 3. Use `<baron-scrollbar>` directive in your templates:
 ```
 <style type="text/css">
